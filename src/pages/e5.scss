@@ -1,0 +1,141 @@
+*{
+ margin: 0;
+ padding: 0;  
+ box-sizing: border-box;  
+}
+
+body{
+    background-color: #EAEAEE;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    background-color: #6294ff;
+    justify-content: space-between;
+}
+
+.li{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.cabec{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.h1{
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    width: 1190px;
+    padding: 80px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+main{
+
+    margin-top: 30px;
+    background-color: #EAEAEE;
+    margin-bottom: 100px;
+}
+
+.main{
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+   font-size: 13px;
+}
+
+.titulo{
+    margin-left: 40px;
+}
+
+.enunciado{
+    display: flex;
+    justify-content: center;
+}
+
+.card2-5{
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 490px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+  }
+
+
+  .contas-5{
+    display: flex;
+    justify-content: center;
+  }
+
+  h2{
+      margin-top: 10px;
+      margin-left: 620px;
+    }
+    
+    .botao-5{
+    background-color: #6275FF; 
+    color: white;
+    padding: 12px 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.local-5{
+    margin-top: 110px;
+    margin-left: -240px;
+}
+
+.input-5{
+    margin-right: 40px;
+    margin-top: 9px;
+    width: 100px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.text-5{
+    margin-top: 4px;
+    margin-right: 0px;
+}
+
+.linha-roxa{
+    height: 6px;
+    width: 90%;             
+    background-color: #CB37FF;
+    border-radius: 3px;       
+    margin: 20px auto;
+}

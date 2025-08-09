@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    background-color: #6278F7;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+}
+.li{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cabec{
+    
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.h1{
+    font-size: 20px;
+    color: white;
+}
+body{
+    background-color: #F5F6FA;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+    .titulo{
+        font-size: 26px;
+        margin-left: 80px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+.todos-ex{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .exercicios{
+        text-align: center;
+        background-color: #FFFFFF;
+        width: 215px;
+        height: 158px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        border-radius: 12px;
+        margin-bottom: 10px;
+
+        .quad{
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        h3{
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        p{
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .cores1{
+            background-color: #FFCE37;
+        }
+        .cores2{
+            background-color: #B3FF37;
+        }
+        .cores3{
+            background-color: #37FFF3;
+        }
+        .cores4{
+            background-color: #37B7FF;
+        }
+        .cores5{
+            background-color: #CB37FF;
+        }
+        .cores6{
+            background-color: #FF5B37;
+        }
+        .cores7{
+            background-color: #37FFAB;
+        }
+        .cores8{
+            background-color: #151515;
+        }
+        .cores9{
+            background-color: #D0D0D0;
+        }
+        .cores10{
+            background-color: #B75333;
+        }
+        .cores11{
+            background-color: #6533B7;
+        }
+        .cores12{
+            background-color: #FFCE37;
+        }
+    }
+}
