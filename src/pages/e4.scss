@@ -52,7 +52,7 @@ li{
     padding: 80px;
     text-align: center;
     font-size: 16px;
-  }
+}
 
 main{
 
@@ -83,7 +83,7 @@ main{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 300px;
+    height: 350px;
     width: 490px;
     padding: 50px;
     text-align: center;
@@ -98,6 +98,10 @@ main{
     margin-top: 6px;
     margin-left: 650px;
   }
+.resposta{
+  margin-left: 550px;
+  margin-top: 20px;
+}
 
   .botao-4{
     background-color: #6275FF; 
@@ -110,7 +114,7 @@ main{
   }
 
   .local-4{
-    margin-top: 0px;
+    margin-top: -5px;
     margin-left: 15px;
     display: flex;
     justify-content: flex-end;
@@ -121,7 +125,7 @@ main{
   }
 
   input{
-    margin-top: 9px;
+    margin-top: 5px;
     width: 400px;
     padding: 8px 12px;
     font-size: 14px;
@@ -130,9 +134,11 @@ main{
     outline: none;
     margin-bottom: 10px;
   }
-
+.nome{
+  margin-left: -70px;
+}
   .text-4{
-    margin-top: 4px;
+    margin-top: -1px;
     margin-right: 170px;
     width: 300px;
     

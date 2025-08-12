@@ -7,10 +7,19 @@ export default function E5() {
     const [notas, setNotas] = useState(0)
     const [notat, setNotat] = useState(0)
     const [resultado, setResultado] = useState(0)
+    const [situacao, setSituacao] = useState()
 
     function calcularMedia() {
         let resultado = (Number(notap) + Number(notas) + Number(notat)) / 3
         setResultado(resultado)
+        let situ = '';
+        if(resultado >= 6){
+            situ = 'True'
+        }
+        else[
+            situ = 'False'
+        ]
+        setSituacao(situ)
     }
 
     return(
@@ -36,7 +45,7 @@ export default function E5() {
             <div class="linha-roxa"></div>
             
             <div className="enunciado">
-                 <p className="card">ppppppppppppppppp</p>
+                 <p className="card">Implemente um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.</p>
             </div>
 
             <div className="contas-5">
@@ -61,7 +70,7 @@ export default function E5() {
             
             </div>
           </div> 
-        <h2>Resultado: A média é {resultado}</h2>
+        <h2>Resultado: A média é {resultado} <br />O aluno passou? {situacao} </h2>
         </main>
 
         </div>

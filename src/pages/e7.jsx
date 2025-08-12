@@ -9,23 +9,26 @@ export default function E7() {
     
     function verificar() {
         let resultado = ""
-        if(cor == 'Vermelho' && corr =='Amarelo' || cor == 'vermelho' && corr =='amarelo'){
-        resultado = 'Laranja' 
+    if(cor == 'Vermelho' && corr =='Amarelo' || cor == 'vermelho' && corr =='amarelo'){
+        resultado = 'True' 
     }
     else if(cor == 'Azul' && corr =='Vermelho'||cor == 'azul' && corr =='vermelho'){
-        resultado = 'Roxo' 
+        resultado = 'True' 
     }
     else if(cor == 'Amarelo' && corr =='Azul'||cor == 'Amarelo' && corr =='Azul'){
-        resultado = 'Verde' 
+        resultado = 'True' 
     }
     else if(cor == 'Amarelo' && corr =='Vermelho'||cor == 'amarelo' && corr =='vermelho'){
-        resultado = 'Laranja' 
+        resultado = 'True' 
     }
     else if(cor == 'Vermelho' && corr =='Azul'||cor == 'vermelho' && corr =='azul'){
-        resultado = 'Roxo' 
+        resultado = 'True' 
     }
     else if(cor == 'Azul' && corr =='Amarelo'||cor == 'azul' && corr =='amarelo'){
-        resultado = 'Verde' 
+        resultado = 'True' 
+    }
+    else{
+        resultado = 'False'
     }
     setResultado(resultado)
     }
@@ -53,7 +56,7 @@ export default function E7() {
             <div class="linha-verde"></div>
             
             <div className="enunciado">
-                 <p className="card">pppppppppp</p>
+                 <p className="card">Implementar um programa em javascript para verificar se duas cores são primárias</p>
             </div>
 
             <div className="contas-7">
@@ -73,7 +76,7 @@ export default function E7() {
              </div>
             </div>
           </div> 
-        <h2>Resultado: {resultado} </h2>
+        <h2>As duas cores são primárias? {resultado} </h2>
         </main>
         </div>
     )

@@ -35,7 +35,7 @@ export default function E6() {
             <div class="linha-vermelha"></div>
             
             <div className="enunciado">
-                 <p className="card">pppppppppppp</p>
+                 <p className="card">Implemente um programa em javascript para calcular o salário líquido de um funcionário, a partir de seu salário base, do bônus mensal em porcentagem e do total de descontos em reais</p>
             </div>
 
             <div className="contas-6">

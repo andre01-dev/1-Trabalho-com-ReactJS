@@ -24,7 +24,10 @@ export default function E8() {
             resultado = "Hipotermia"
         }
     setResultado(resultado)
+    
     }
+
+
     return(
         <div>
             <header className="header">
@@ -48,7 +51,7 @@ export default function E8() {
             <div class="linha-preta"></div>
             
             <div className="enunciado">
-                 <p className="card">pppppppp</p>
+                 <p className="card">Implementar um programa em javascript que a partir da temperatura, avalie a situação da pessoa conforme a tabela. Ao final, apresente a classificação</p>
             </div>
 
             <div className="contas-2">

@@ -41,7 +41,7 @@ export default function E9() {
                 <div class="linha-cinza"></div>
 
                 <div className="enunciado">
-                    <p className="card">pppppppp</p>
+                    <p className="card">Implementar um programa em javascript que calcule o total a se pagar em uma compra na sorveteria, a partir do total de gramas comprado. O preço de 100g é R$ 3,50 mas se o total de gramas for a partir de 1kg, o preço das 100g diminui 50 centavos.</p>
                 </div>
 
                 <div className="contas-2">
