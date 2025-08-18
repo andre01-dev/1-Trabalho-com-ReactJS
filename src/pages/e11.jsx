@@ -41,7 +41,7 @@ export default function E11() {
                 <div class="linha-roxa"></div>
 
                 <div className="enunciado">
-                    <p className="card">ppppppppppp</p>
+                    <p className="card">Implemente um programa em Javascript que escreva a tabuada de um número informado pelo usuário. A mensagem deve estar no formato ”A x B = X”.</p>
                 </div>
                 <div className="contas">
                     <div className="card2">
@@ -53,11 +53,11 @@ export default function E11() {
                         </div>
                     </div>
                 </div>
-                <ul>{resultado.map((linha, index) => (
-                    <li className='li-e11' key={index}>
-                        {linha}
-                    </li>
-                ))}</ul>
+                    {
+                        resultado.map(res => {
+                            return <h1 className='resposta'>{res}</h1>
+                        })
+                    }
             </main>
         </div>
     )
